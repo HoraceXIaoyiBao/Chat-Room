@@ -1,0 +1,9 @@
+C:\Users\n10322248\OneDrive - Queensland University of Technology\Chat Room\SocketServerTest\SocketServerTest\obj\Debug\SocketServerTest.csprojAssemblyReference.cache
+C:\Users\n10322248\OneDrive - Queensland University of Technology\Chat Room\SocketServerTest\SocketServerTest\obj\Debug\SocketServerTest.csproj.CoreCompileInputs.cache
+C:\Users\n10322248\OneDrive - Queensland University of Technology\Chat Room\SocketServerTest\SocketServerTest\bin\Debug\SocketServerTest.exe.config
+C:\Users\n10322248\OneDrive - Queensland University of Technology\Chat Room\SocketServerTest\SocketServerTest\bin\Debug\SocketServerTest.exe
+C:\Users\n10322248\OneDrive - Queensland University of Technology\Chat Room\SocketServerTest\SocketServerTest\bin\Debug\SocketServerTest.pdb
+C:\Users\n10322248\OneDrive - Queensland University of Technology\Chat Room\SocketServerTest\SocketServerTest\obj\Debug\SocketServerTest.exe
+C:\Users\n10322248\OneDrive - Queensland University of Technology\Chat Room\SocketServerTest\SocketServerTest\obj\Debug\SocketServerTest.pdb
+C:\Users\n10322248\OneDrive - Queensland University of Technology\Chat Room\SocketServerTest\SocketServerTest\obj\Debug\SocketServerTest.ServerForm.resources
+C:\Users\n10322248\OneDrive - Queensland University of Technology\Chat Room\SocketServerTest\SocketServerTest\obj\Debug\SocketServerTest.csproj.GenerateResource.cache

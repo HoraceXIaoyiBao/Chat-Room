@@ -1,0 +1,7 @@
+C:\Users\n10322248\OneDrive - Queensland University of Technology\Chat Room\SocketServerTest\Client\bin\Debug\Client.exe.config
+C:\Users\n10322248\OneDrive - Queensland University of Technology\Chat Room\SocketServerTest\Client\bin\Debug\Client.exe
+C:\Users\n10322248\OneDrive - Queensland University of Technology\Chat Room\SocketServerTest\Client\bin\Debug\Client.pdb
+C:\Users\n10322248\OneDrive - Queensland University of Technology\Chat Room\SocketServerTest\Client\obj\Debug\Client.csproj.CoreCompileInputs.cache
+C:\Users\n10322248\OneDrive - Queensland University of Technology\Chat Room\SocketServerTest\Client\obj\Debug\Client.exe
+C:\Users\n10322248\OneDrive - Queensland University of Technology\Chat Room\SocketServerTest\Client\obj\Debug\Client.pdb
+C:\Users\n10322248\OneDrive - Queensland University of Technology\Chat Room\SocketServerTest\Client\obj\Debug\Client.csprojAssemblyReference.cache
