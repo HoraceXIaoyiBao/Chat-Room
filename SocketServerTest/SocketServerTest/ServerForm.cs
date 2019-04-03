@@ -25,9 +25,9 @@ namespace SocketServerTest
         private void button1_Click(object sender, EventArgs e)
         {
             server s = new server();
-            s.startserver();
+            s.startWatch();
             ConsolePanel.Text = "server started";
-            s.startlisten();
+            s.startListen();
         }
 
        

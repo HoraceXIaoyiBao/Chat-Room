@@ -7,3 +7,12 @@ C:\Users\n10322248\OneDrive - Queensland University of Technology\Chat Room\Sock
 C:\Users\n10322248\OneDrive - Queensland University of Technology\Chat Room\SocketServerTest\SocketServerTest\obj\Debug\SocketServerTest.pdb
 C:\Users\n10322248\OneDrive - Queensland University of Technology\Chat Room\SocketServerTest\SocketServerTest\obj\Debug\SocketServerTest.ServerForm.resources
 C:\Users\n10322248\OneDrive - Queensland University of Technology\Chat Room\SocketServerTest\SocketServerTest\obj\Debug\SocketServerTest.csproj.GenerateResource.cache
+C:\Users\DELL\OneDrive - Queensland University of Technology\Chat Room\SocketServerTest\SocketServerTest\obj\Debug\SocketServerTest.csprojAssemblyReference.cache
+C:\Users\DELL\OneDrive - Queensland University of Technology\Chat Room\SocketServerTest\SocketServerTest\obj\Debug\SocketServerTest.ServerForm.resources
+C:\Users\DELL\OneDrive - Queensland University of Technology\Chat Room\SocketServerTest\SocketServerTest\obj\Debug\SocketServerTest.csproj.GenerateResource.cache
+C:\Users\DELL\OneDrive - Queensland University of Technology\Chat Room\SocketServerTest\SocketServerTest\obj\Debug\SocketServerTest.csproj.CoreCompileInputs.cache
+C:\Users\DELL\OneDrive - Queensland University of Technology\Chat Room\SocketServerTest\SocketServerTest\obj\Debug\SocketServerTest.exe
+C:\Users\DELL\OneDrive - Queensland University of Technology\Chat Room\SocketServerTest\SocketServerTest\obj\Debug\SocketServerTest.pdb
+C:\Users\DELL\OneDrive - Queensland University of Technology\Chat Room\SocketServerTest\SocketServerTest\bin\Debug\SocketServerTest.exe.config
+C:\Users\DELL\OneDrive - Queensland University of Technology\Chat Room\SocketServerTest\SocketServerTest\bin\Debug\SocketServerTest.exe
+C:\Users\DELL\OneDrive - Queensland University of Technology\Chat Room\SocketServerTest\SocketServerTest\bin\Debug\SocketServerTest.pdb
