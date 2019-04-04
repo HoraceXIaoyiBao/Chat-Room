@@ -3,22 +3,18 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+using System.Net;
+using System.Net.Sockets;
+using System.Windows.Forms;
 namespace Client
 {
     class Program
     {
         static void Main(string[] args)
         {
-            client c = new client("127.0.0.1",1234);
-            while (true)
-            {
-                Console.WriteLine("Client:");
-                string message;
-                message =   Console.ReadLine();
-                if (message == "e") break;
-                c.Connection(message);
-            }
+            ClientForm cf = new ClientForm();
+
+            Application.Run(cf);
         }
     }
 }

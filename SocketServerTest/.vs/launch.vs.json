@@ -1,0 +1,11 @@
+{
+  "version": "0.2.1",
+  "defaults": {},
+  "configurations": [
+    {
+      "type": "managed",
+      "name": "C:\\Users\\n10322248\\OneDrive - Queensland University of Technology\\Chat Room\\SocketServerTest",
+      "project": ""
+    }
+  ]
+}

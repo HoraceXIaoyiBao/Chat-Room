@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Net;
 using System.Net.Sockets;
-
+using System.Threading;
 
 namespace Client
 {
@@ -26,28 +26,42 @@ namespace Client
         }
 
 
-        public void Connection(string contents)
+        public void Connection(string hosting, int port)
         {
             this.socket=new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
 
-            string hosting = "127.0.0.1";
-            int port = 1234;
             socket.Connect(hosting, port);
 
+            Thread threadConnect = new Thread(receiveMsg);
+            threadConnect.IsBackground = true;
+            threadConnect.Start();
+
+
+           
+
+        }
+        public void receiveMsg()
+        {
+            int count = socket.Receive(readBuff);
+
+           string  str = System.Text.Encoding.UTF8.GetString(readBuff, 0, count);
+            Console.WriteLine("Server:" + str);
+            socket.Close();
+        }
+        public void sendMsg(string contents)
+        {
             string str = contents;
             //Console.WriteLine("Client :"+str);
             byte[] bytes = System.Text.Encoding.Default.GetBytes(str);
+            Console.WriteLine("message sent!");
             socket.Send(bytes);
 
-            int count = socket.Receive(readBuff);
-
-            str = System.Text.Encoding.UTF8.GetString(readBuff, 0, count);
-            Console.WriteLine("Server:"+ str);
-            socket.Close();
-
+           
         }
 
 
   
     }
+
+
 }

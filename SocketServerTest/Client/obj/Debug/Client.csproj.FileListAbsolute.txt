@@ -5,3 +5,14 @@ C:\Users\n10322248\OneDrive - Queensland University of Technology\Chat Room\Sock
 C:\Users\n10322248\OneDrive - Queensland University of Technology\Chat Room\SocketServerTest\Client\obj\Debug\Client.exe
 C:\Users\n10322248\OneDrive - Queensland University of Technology\Chat Room\SocketServerTest\Client\obj\Debug\Client.pdb
 C:\Users\n10322248\OneDrive - Queensland University of Technology\Chat Room\SocketServerTest\Client\obj\Debug\Client.csprojAssemblyReference.cache
+C:\Users\n10322248\OneDrive - Queensland University of Technology\Chat Room\SocketServerTest\Client\obj\Debug\Client.ClientForm.resources
+C:\Users\n10322248\OneDrive - Queensland University of Technology\Chat Room\SocketServerTest\Client\obj\Debug\Client.csproj.GenerateResource.cache
+C:\Users\DELL\OneDrive - Queensland University of Technology\Chat Room\SocketServerTest\Client\bin\Debug\Client.exe.config
+C:\Users\DELL\OneDrive - Queensland University of Technology\Chat Room\SocketServerTest\Client\bin\Debug\Client.exe
+C:\Users\DELL\OneDrive - Queensland University of Technology\Chat Room\SocketServerTest\Client\bin\Debug\Client.pdb
+C:\Users\DELL\OneDrive - Queensland University of Technology\Chat Room\SocketServerTest\Client\obj\Debug\Client.csprojAssemblyReference.cache
+C:\Users\DELL\OneDrive - Queensland University of Technology\Chat Room\SocketServerTest\Client\obj\Debug\Client.ClientForm.resources
+C:\Users\DELL\OneDrive - Queensland University of Technology\Chat Room\SocketServerTest\Client\obj\Debug\Client.csproj.GenerateResource.cache
+C:\Users\DELL\OneDrive - Queensland University of Technology\Chat Room\SocketServerTest\Client\obj\Debug\Client.csproj.CoreCompileInputs.cache
+C:\Users\DELL\OneDrive - Queensland University of Technology\Chat Room\SocketServerTest\Client\obj\Debug\Client.exe
+C:\Users\DELL\OneDrive - Queensland University of Technology\Chat Room\SocketServerTest\Client\obj\Debug\Client.pdb

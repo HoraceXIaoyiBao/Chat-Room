@@ -10,8 +10,10 @@ using System.Windows.Forms;
 
 namespace SocketServerTest
 {
+  
     public partial class ServerForm : Form
     {
+        server s;
         public ServerForm()
         {
             InitializeComponent();
@@ -24,10 +26,11 @@ namespace SocketServerTest
 
         private void button1_Click(object sender, EventArgs e)
         {
-            server s = new server();
+             s = new server(this);
             s.startWatch();
             ConsolePanel.Text = "server started";
-            s.startListen();
+            button1.Enabled = false;
+          //  s.startListen();
         }
 
        
