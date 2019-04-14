@@ -24,7 +24,8 @@ namespace Client
             string destinationIP = DestinationIP.Text;
             int destinationEndPort;
                bool result= int.TryParse(  DestinationEndPort.Text ,out  destinationEndPort);
-            c =new client(destinationIP, destinationEndPort);
+            c =new client(destinationIP, destinationEndPort,this);
+         
             c.Connection(destinationIP, destinationEndPort);
             string chatname = Chatname.Text;
             c.sendMsg(chatname);
@@ -52,5 +53,7 @@ namespace Client
         {
 
         }
+
+
     }
 }

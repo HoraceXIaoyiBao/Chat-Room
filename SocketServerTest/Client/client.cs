@@ -12,17 +12,18 @@ namespace Client
     class client
     {
         Socket socket;
-
+        ClientForm cf;
         private string destinationIPaddress;
         private int destinationPort;
 
         const int BUFFER_SIZE = 1024;
         byte[] readBuff = new byte[BUFFER_SIZE];
 
-        public client(string destinationIPaddress,int destinationPort)
+        public client(string destinationIPaddress,int destinationPort, ClientForm cf)
         {
             this.destinationIPaddress = destinationIPaddress;
             this.destinationPort = destinationPort;
+            this.cf = cf;
         }
 
 
@@ -34,19 +35,25 @@ namespace Client
 
             Thread threadConnect = new Thread(receiveMsg);
             threadConnect.IsBackground = true;
-            threadConnect.Start();
+            threadConnect.Start(socket);
 
 
            
 
         }
-        public void receiveMsg()
+        public void receiveMsg(object socketClientPara)
         {
-            int count = socket.Receive(readBuff);
+            Socket con= socketClientPara as Socket;
+            // con.Accept();
 
-           string  str = System.Text.Encoding.UTF8.GetString(readBuff, 0, count);
-            Console.WriteLine("Server:" + str);
-            socket.Close();
+            while (true)
+            {
+                int count = con.Receive(readBuff);
+
+                string str = System.Text.Encoding.UTF8.GetString(readBuff, 0, count);
+                Console.WriteLine(str);
+                cf.ChatRoom.Items.Add(str);
+            }//socket.Close();
         }
         public void sendMsg(string contents)
         {
